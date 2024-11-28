@@ -2,6 +2,136 @@
   text-align: center;
 }
 
+.inputStyle{
+  font-size:16px;
+  font-family: Arial, Helvetica, sans-serif;
+  height:20px;
+  padding:10px;
+  border-radius: 10px;
+  border:1px solid black;
+  width:240px;
+
+}
+
+.input_container{
+  margin: 0px 24px;
+  width:560px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  margin:0px 40px
+}
+
+.chat-container {
+  display: flex;
+  margin-top:20px;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  width:500px;
+  height: 75vh;
+  overflow-y: scroll;
+  background-color: #f5f5f5;
+}
+
+.message-wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.sent {
+  justify-content: flex-end;
+}
+
+.received {
+  justify-content: flex-start;
+}
+
+.message {
+  max-width: 60%;
+  padding: 2px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.message-time{
+  margin:4px 6px
+}
+
+.sent-message {
+  background-color: #007bff;
+  color: white;
+  border-bottom-right-radius: 0;
+}
+
+.received-message {
+  background-color: #e5e5ea;
+  color: black;
+  border-bottom-left-radius: 0;
+}
+
+.message-text {
+  margin: 0;
+  word-wrap: break-word;
+}
+.message_container{
+  padding:20px
+}
+
+.searchBtn{
+  height:48px;
+  width:142px;
+  border-radius: 10px;
+  border:1px solid rgb(98, 147, 24);
+  background-color: rgb(29, 45, 3);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:10px;
+  cursor: pointer;
+  color:white
+}
+
+.searchContainer{
+ padding:24px
+}
+.searchComponent{
+  display: flex;
+  flex-direction: row;
+  gap:12px
+}
+
+.buttonStyle{
+  height:48px;
+  width:264px;
+  border-radius: 10px;
+  border:1px solid rgb(98, 147, 24);
+  background-color: rgb(29, 45, 3);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:10px;
+  cursor: pointer;
+  color:white
+}
+
+.container{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  gap:12px
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +166,5 @@
     transform: rotate(360deg);
   }
 }
+
+
